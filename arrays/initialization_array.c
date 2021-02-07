@@ -15,8 +15,19 @@
 // array([3,3,3,3,3,3,3,3,3,3])
 
 
-#define MONTH 12
+// multi dimentional array 
+// 4 row, 5 col
+// int matrix[4][5] = {
+//     {1, 2, 3, 4, 5},     // [0][0] = 1
+//     {2, 3, 4, 5},        // [1][0] = 2
+//     {6, 7, 8, 9, 10},    // [2][1] = 6
+//     {11, 12, 13}
+// };
+// the reset will set to ZERO
 
+
+
+#define MONTH 12
 int main()
 {
     int days[MONTH] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
@@ -29,6 +40,8 @@ int main()
     }
     return 0; 
 }
+
+
 
 
 
