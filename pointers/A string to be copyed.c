@@ -5,6 +5,7 @@
 
 void copyString(char *to, char *from)
 {
+    // loop through string by using pointer
     while( *from )       // *from pointer not point to NULL
         *to++ = *from++;
     
